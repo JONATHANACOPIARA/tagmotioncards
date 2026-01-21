@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Jonathan</title>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css'>
+<style>
+body{margin:0;font-family:Arial;background:#0f0f10;color:#fff;display:flex;justify-content:center;padding:20px}
+.container{max-width:420px;width:100%}
+.card{background:#1a1a1d;border-radius:18px;padding:20px;margin-bottom:14px;text-align:center}
+.card img{width:110px;height:110px;border-radius:50%;object-fit:cover;border:3px solid #22c55e}
+a,button{display:flex;align-items:center;gap:12px;background:#26262b;color:#fff;text-decoration:none;padding:14px;border-radius:14px;margin-bottom:10px;border:none;width:100%;cursor:pointer}
+i{font-size:18px}
+</style>
+</head>
+<body>
+<div class='container'>
+<div class='card'>
+<img src='https://i.imgur.com/e1g5ycm.jpeg'>
+<h2>Jonathan</h2>
+<p>CEO da Empresa</p>
+</div>
+<a href='https://wa.me/5588997842847'><i class='fa-brands fa-whatsapp'></i> WhatsApp</a>
+<a href='https://www.instagram.com/jonathanguilhermejg'><i class='fa-brands fa-instagram'></i> Instagram</a>
+<button onclick="navigator.clipboard.writeText('88997842847')"><i class='fa-solid fa-qrcode'></i> Copiar Pix</button>
+<button onclick="navigator.clipboard.writeText('Wi-Fi: final 21 | Senha: q79ugxxy')"><i class='fa-solid fa-wifi'></i> Copiar Wi-Fi</button>
+<button onclick="var v='BEGIN:VCARD\nVERSION:3.0\nFN:Jonathan\nTEL:5588997842847\nEND:VCARD';var b=new Blob([v]);var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='Jonathan.vcf';a.click();"><i class='fa-solid fa-user-plus'></i> Salvar Contato</button>
+<a href='https://maps.app.goo.gl/75BzFhYnAbtb7zWp9'><i class='fa-solid fa-map-location-dot'></i> Google Maps</a>
+<a href='https://g.page/r/CbAzn_5LkDqLEBM/review'><i class='fa-solid fa-star'></i> Avaliações Google</a>
+</div>
+</body>
+</html>
